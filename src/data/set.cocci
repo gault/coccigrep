@@ -19,6 +19,28 @@ p@p1->$attribut += E
 |
 p@p1->$attribut -= E
 |
+p@p1->$attribut *= E
+|
+p@p1->$attribut /= E
+|
+p@p1->$attribut %= E
+|
+p@p1->$attribut <<= E
+|
+p@p1->$attribut >>= E
+|
+p@p1->$attribut &= E
+|
+p@p1->$attribut ^= E
+|
+ ++p@p1->$attribut
+|
+p@p1->$attribut++
+|
+ --p@p1->$attribut
+|
+p@p1->$attribut--
+|
 ps@p1.$attribut |= E
 |
 ps@p1.$attribut = E
@@ -26,4 +48,26 @@ ps@p1.$attribut = E
 ps@p1.$attribut += E
 |
 ps@p1.$attribut -= E
+|
+ps@p1.$attribut *= E
+|
+ps@p1.$attribut /= E
+|
+ps@p1.$attribut %= E
+|
+ps@p1.$attribut <<= E
+|
+ps@p1.$attribut >>= E
+|
+ps@p1.$attribut &= E
+|
+ps@p1.$attribut ^= E
+|
+ ++ps@p1.$attribut
+|
+ps@p1.$attribut++
+|
+ --ps@p1.$attribut
+|
+ps@p1.$attribut--
 )
